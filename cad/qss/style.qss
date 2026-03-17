@@ -1,0 +1,51 @@
+QPushButton.bla {
+    background-color: #CCCCCC;
+    color: #666666;
+    border: 2px solid #AAAAAA;
+    border-radius: 6px;
+    padding: 8px 16px;
+    font-weight: bold;
+    font-size: 10px;
+}
+QPushButton.bla:hover {
+    background-color: #DDDDDD;
+    border-color: #999999;
+}
+QPushButton.bla:pressed {
+    background-color: #BBBBBB;
+    border-color: #888888;
+}
+
+/* QDockWidget {
+    background-color: #fcd5d5f3;
+    border-color: #fcd5d5f3;
+}
+
+QWidget {
+    background-color: #fcd5d5f3;
+    border-color: #fcd5d5f3;
+} */
+
+
+/* QMainWindow {
+    background-color: #fcd5d5f3;
+    border-color: #fcd5d5f3;
+} */
+
+QPushButton.active {
+    background-color:  #4EEA00;
+    border: 2px solid #3DD100;
+    border-radius: 8px;
+    padding: 10px 20px;
+    color: #3DD100;
+    font-weight: bold;
+    font-size: 13px;
+}
+QPushButton.active:hover {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #5AFF00, stop:1 #4EEA00);
+    border: 3px solid #3DD100;
+}
+QPushButton.active:pressed {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #3DD100, stop:1 #3DC800);
+    border: 1px solid #2CB000;
+}
